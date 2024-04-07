@@ -33,7 +33,7 @@ public:
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest")
 	//TArray<AActor> ItemsReward;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Quest")
 	bool bIsCompleted;
 
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Quest")
